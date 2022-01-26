@@ -29,6 +29,10 @@ public class LevelManager : MonoBehaviour
         StartCoroutine(WaitAndLoad("GameOver", sceneLoadDelay));
     }
 
+    public void LoadOptions()
+    {
+        SceneManager.LoadScene("Options");
+    }
     public void ExitGame()
     {
         Debug.Log("Quitting game.");
