@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class ScoreKeeper : MonoBehaviour
 {
     int score;
+// https://docs.unity3d.com/2021.1/Documentation/ScriptReference/SceneManagement.Scene-buildIndex.html
+    Scene scene;
 
     static ScoreKeeper instance;
 
@@ -14,6 +16,11 @@ public class ScoreKeeper : MonoBehaviour
         ManageSingleton();
     }
     
+    void Start()
+    {
+
+    }
+
     void Update()
     {
         Progress();
