@@ -53,7 +53,7 @@ public class Player : MonoBehaviour
     void OnMove(InputValue value)
     {
         rawInput = value.Get<Vector2>();
-        // Debug.Log(rawInput); // spams console, but just tells you whether or not your player is responding to WASD
+        // Debug.Log(rawInput); // spams console, just tells you whether or not your player is responding to WASD
     }
 
     void OnFire(InputValue value)

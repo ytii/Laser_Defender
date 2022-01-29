@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class ScoreKeeper : MonoBehaviour
 {
     int score;
-// https://docs.unity3d.com/2021.1/Documentation/ScriptReference/SceneManagement.Scene-buildIndex.html
+
     Scene scene;
 
     static ScoreKeeper instance;
@@ -18,13 +18,13 @@ public class ScoreKeeper : MonoBehaviour
     
     void Start()
     {
-
+        scene = SceneManager.GetActiveScene();
     }
 
-    void Update()
-    {
-        Progress();
-    }
+    // void Update()
+    // {
+    //     Progress();
+    // }
 
     void ManageSingleton()
     {
@@ -45,17 +45,18 @@ public class ScoreKeeper : MonoBehaviour
         score = 0;
     }
 
-    public void Progress()
-    {
-        Scene currentScene = SceneManager.GetActiveScene();
-        string sceneName = currentScene.name;
+    // public void Progress()
+    // {
+    //     Scene currentScene = SceneManager.GetActiveScene();
+    //     string sceneName = currentScene.name;
 
-        if(score == 1000)
-        {
-            ResetScore();
-            SceneManager.LoadScene("Level_2"); // Change from level 2 to buildIndex + 1
-        }
-    }
+    //     if(score == 1000)
+    //     {
+    //         ResetScore();
+    //         int nextScene = SceneManager.GetActiveScene().buildIndex + 1;
+    //         SceneManager.LoadScene(nextScene);
+    //     }
+    // }
 
     public int GetScore()
     {
