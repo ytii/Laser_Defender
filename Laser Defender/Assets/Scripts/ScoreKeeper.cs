@@ -21,10 +21,10 @@ public class ScoreKeeper : MonoBehaviour
         scene = SceneManager.GetActiveScene();
     }
 
-    // void Update()
-    // {
-    //     Progress();
-    // }
+    void Update()
+    {
+        Progress();
+    }
 
     void ManageSingleton()
     {
@@ -45,18 +45,14 @@ public class ScoreKeeper : MonoBehaviour
         score = 0;
     }
 
-    // public void Progress()
-    // {
-    //     Scene currentScene = SceneManager.GetActiveScene();
-    //     string sceneName = currentScene.name;
-
-    //     if(score == 1000)
-    //     {
-    //         ResetScore();
-    //         int nextScene = SceneManager.GetActiveScene().buildIndex + 1;
-    //         SceneManager.LoadScene(nextScene);
-    //     }
-    // }
+    public void Progress()
+    {
+        if(score == 1000)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            ResetScore();
+        }
+    }
 
     public int GetScore()
     {
