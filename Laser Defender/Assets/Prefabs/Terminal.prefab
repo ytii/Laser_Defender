@@ -43,14 +43,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a450015e4f4976842910ad2822766ba4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHeight: 0.7
+  MaxHeight: 0.5
   SmallTerminalRatio: 0.33
   ToggleSpeed: 360
   ToggleHotkey: '`'
-  ToggleFullHotkey: '#`'
+  ToggleFullHotkey: F8
   BufferSize: 512
   ConsoleFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-  ConsoleFontSize: 0
   InputCaret: '>'
   ShowGUIButtons: 0
   RightAlignButtons: 0
