@@ -1306,9 +1306,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6219926315202089245, guid: 59114f2d71a8ede48b9d444e19da1754, type: 3}
+      propertyPath: moveSpeed
+      value: 5.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7214778873117053110, guid: 59114f2d71a8ede48b9d444e19da1754, type: 3}
       propertyPath: health
-      value: 100
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 8272591353939355245, guid: 59114f2d71a8ede48b9d444e19da1754, type: 3}
       propertyPath: m_RootOrder

@@ -269,7 +269,7 @@ GameObject:
   - component: {fileID: 136778623}
   - component: {fileID: 136778622}
   m_Layer: 5
-  m_Name: Attack (1)
+  m_Name: Extra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -291,8 +291,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.49052083, y: 0.6841153}
   m_AnchorMax: {x: 0.74335384, y: 0.8191153}
-  m_AnchoredPosition: {x: -224.6, y: -396}
-  m_SizeDelta: {x: 1083.406, y: 277.265}
+  m_AnchoredPosition: {x: -224.6, y: -423.848}
+  m_SizeDelta: {x: 1083.406, y: 332.962}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &136778622
 MonoBehaviour:
@@ -322,7 +322,11 @@ MonoBehaviour:
 
     * When
     you reach 1,000 points you will advance one level, once you reach 1,000 points
-    in level 2, the game ends.'
+    in level 2, the game ends.
+
+
+    * In level 2, your health and speed will be
+    decreased.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 08b86e8231cdcef4297eeaec95dec4a0, type: 2}
   m_sharedMaterial: {fileID: -2880752417665799540, guid: 08b86e8231cdcef4297eeaec95dec4a0, type: 2}
@@ -349,13 +353,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 32
+  m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -385,7 +389,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -3.8726044, z: 0, w: 3.8727226}
+  m_margin: {x: 0, y: -3.8726044, z: 0, w: 8.157101}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
