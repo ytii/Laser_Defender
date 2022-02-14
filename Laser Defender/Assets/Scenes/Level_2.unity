@@ -862,6 +862,96 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1724383813}
   m_CullTransparentMesh: 1
+--- !u!1001 &1759252073
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 28424790973574390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: MaxHeight
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 28424790973574390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: InputCaret
+      value: '>'
+      objectReference: {fileID: 0}
+    - target: {fileID: 28424790973574390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: InputColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 28424790973574390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: InputColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 28424790973574390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: InputColor.r
+      value: 0.17676413
+      objectReference: {fileID: 0}
+    - target: {fileID: 28424790973574390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: ShowGUIButtons
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 28424790973574390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: ToggleFullHotkey
+      value: F8
+      objectReference: {fileID: 0}
+    - target: {fileID: 28424790973574390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: BackgroundColor.a
+      value: 0.34117648
+      objectReference: {fileID: 0}
+    - target: {fileID: 1387093929223372023, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: m_Name
+      value: Terminal
+      objectReference: {fileID: 0}
+    - target: {fileID: 4995518484370042390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4995518484370042390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 241.64365
+      objectReference: {fileID: 0}
+    - target: {fileID: 4995518484370042390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 147.8533
+      objectReference: {fileID: 0}
+    - target: {fileID: 4995518484370042390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -15.838746
+      objectReference: {fileID: 0}
+    - target: {fileID: 4995518484370042390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4995518484370042390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4995518484370042390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4995518484370042390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4995518484370042390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4995518484370042390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4995518484370042390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8467282867362684075, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
 --- !u!1 &1805113838
 GameObject:
   m_ObjectHideFlags: 0
