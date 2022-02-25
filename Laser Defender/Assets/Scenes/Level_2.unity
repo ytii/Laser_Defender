@@ -871,12 +871,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 28424790973574390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
       propertyPath: MaxHeight
-      value: 0.5
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 28424790973574390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
       propertyPath: InputCaret
       value: '>'
       objectReference: {fileID: 0}
+    - target: {fileID: 28424790973574390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: ConsoleFont
+      value: 
+      objectReference: {fileID: 12800000, guid: 39b67a461b544d14596992153a3a66af, type: 3}
     - target: {fileID: 28424790973574390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
       propertyPath: InputColor.b
       value: 0
@@ -899,7 +903,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 28424790973574390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
       propertyPath: BackgroundColor.a
-      value: 0.34117648
+      value: 0.43137255
       objectReference: {fileID: 0}
     - target: {fileID: 1387093929223372023, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
       propertyPath: m_Name

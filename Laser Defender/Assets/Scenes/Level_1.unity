@@ -1155,6 +1155,50 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 28424790973574390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: MaxHeight
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 28424790973574390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: ConsoleFont
+      value: 
+      objectReference: {fileID: 12800000, guid: 39b67a461b544d14596992153a3a66af, type: 3}
+    - target: {fileID: 28424790973574390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: InputColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 28424790973574390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: InputColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 28424790973574390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: InputColor.r
+      value: 0.13994062
+      objectReference: {fileID: 0}
+    - target: {fileID: 28424790973574390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: ShellColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 28424790973574390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: ShellColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 28424790973574390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: ShellColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 28424790973574390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: ToggleHotkey
+      value: '`'
+      objectReference: {fileID: 0}
+    - target: {fileID: 28424790973574390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: ToggleFullHotkey
+      value: F8
+      objectReference: {fileID: 0}
+    - target: {fileID: 28424790973574390, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+      propertyPath: BackgroundColor.a
+      value: 0.47058824
+      objectReference: {fileID: 0}
     - target: {fileID: 1387093929223372023, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
       propertyPath: m_Name
       value: Terminal
@@ -1204,7 +1248,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 8467282867362684075, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 09ff7b7988bf3394c84dccba00e6ddd1, type: 3}
 --- !u!1001 &407203616642555779
 PrefabInstance:
